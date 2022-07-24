@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{
+            width:20%;
+            margin:auto;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            padding: 30px;
+        }
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        form{
+            height:auto;
+            width:100%;
+            font-size: 30px;
+            margin: auto;
+            
+        }
+        input{
+            width:80%;
+            height:50px;
+            margin-bottom: 20px;
+        }
+        #btn{
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1> Sign Up </h1>
+    <div id="container"> 
+        <b> Full Name </b><br>
+        <input type="text" id="name" placeholder="Enter your full name" /><br>
+        <b> Email </b><br>
+        <input type="email" id="email" placeholder="Enter email" /><br>
+        <b> Password </b><br>
+        <input type="password" id="password" placeholder="Enter password" /><br>
+    </form>
+    <button id="btn"> SIGN UP </button>
+    <p> Already have an account? <a href="SignIn.html"> Sign In </a> </p>
+
+    </div>
+    <form>
+</body>
+</html>
+
+<script>
+document.querySelector("form").addEventListener("submit", sign);
+let arr=[];
+function sign(event) {
+    event.preventDefault();
+    let obj={
+        name:document.querySelector("#name").value,
+        email:document.querySelector("#email").value,
+        pass:document.querySelector("#password").value
+    }
+    arr.push(obj)
+    sign(arr)
+}
+document.querySelector("#btn").addEventListener("click", sign);
+function sign(arr){
+    console.log(arr)
+}
+</script>

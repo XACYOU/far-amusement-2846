@@ -1,0 +1,522 @@
+                 /*  NAVBAR    */
+#navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    position: sticky;
+    top:0px ;
+    background-color: white;
+}    #navRight>a>button{
+    border: 0px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(112, 112, 112);
+}
+#navRight>a:first-child>button{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    border: 0px;
+    background-color: rgb(238,244,255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+                    /* SEARCH BOX */
+#searchOut{
+    width: 80%;
+    margin: 1px auto;
+    padding: 20px;
+    background: rgb(192,239,255);
+    background: linear-gradient(40deg, rgba(192,239,255,1) 0%, rgba(255,255,255,1) 28%, rgba(255,255,255,1) 70%, rgba(255,236,208,1) 100%);
+}
+#searchIn{
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+#searchTop>h2{
+    font-size: 30px;
+    color: hsl(0, 4%, 30%);
+}
+#searchBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#searchBottom>input{
+width: 50%;
+border: 0px;
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+font-size: 20px;
+padding: 20px;
+}
+#searchBottom>button{
+   border: 0px;
+   background-color: rgb(16,132,126);
+   color: white;
+   border-radius: 30px;
+   padding: 15px;
+   font-size: 25px;
+   position: relative;
+   right:130px
+}
+                    /* DISCOVER */
+#discover{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin:auto;
+    text-align: center;
+}
+#discover>div>img{
+    width:100%
+}
+#discover>div>b{
+    color: red;
+    font-size: 15px;
+}
+                        /* OFFER IMAGE */
+#img3{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    margin: 50px auto;
+}
+#img3>img{
+    width: 33%;
+}
+
+                    /* OFFERS U */
+#offersU{
+    width: 80%;
+    margin: 20px auto;
+}
+#in{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+#in>div{
+    width:30%;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#in>div>img{
+    width:50px;
+}
+#category{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+#category>div{
+    text-align: center;
+}
+#category>div>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+                    /* PRESCRIPTION */
+#prescription{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    font-size: 20px;
+}
+#presLeft{
+    width: auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    background-color: rgb(238,244,255);
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+#presRight{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#presIn{
+    display: flex;
+    gap: 20px;
+}
+li{
+    margin-top: 20px;
+}
+#presLeft>div+div>button{
+    font-size: 20px;    
+    border: 0px;
+    padding: 15px;
+    background-color: rgb(16,132,126);
+    color: white;
+}
+
+            /* NEW LAUNCHES */
+#launches{
+    width: 80%;
+    margin: auto;
+}
+#launIN{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+#launIN>div>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#launIN>div>b>span{
+    color: rgb(230, 11, 11);
+}
+                        /* TRENDING */
+#trending{
+    width: 80%;
+    margin: 20px auto;
+}
+#trendIn{
+    display: flex;
+    gap: 20px;
+    align-items:baseline;
+}
+#trendIn>div>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#trendIn>div>b>span{
+color: rgb(230, 11, 11);
+}
+                        /*CONCERN */
+#concern{
+    width: 80%;
+    margin: 20px auto;
+}
+#conTop{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+    justify-content: space-around;
+}
+#conBot{
+    display: flex;
+    gap: 20px;
+    align-items:baseline;
+}
+#conBot>div>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#concern>p>span>b{
+color: rgb(230, 11, 11);
+}
+
+                            /* SBC */
+#sbc{
+    width: 80%;
+    margin: auto;
+}
+#sbcIn{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+#sbcIn>div>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+                        /* FBLT */
+#fblt{
+    width: 80%;
+    margin:auto;
+}
+#fbltIn{
+    display: flex;
+    gap:20px;
+    align-items: flex-end;
+}
+#pap>img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#fbltIn>div>b{
+    padding: 5px;
+    color: white;
+    background-color: red;
+}
+.pap{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 28px;
+}
+.pap>div>img{
+    width:40%
+}
+#fbltIn>div{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#fbltIn>div:first-child{
+    background-color:rgb(253,247,232) ;
+}
+#fbltIn>div:last-child{
+    background-color: rgb(241,250,254);
+}
+#fbltIn>div:nth-child(2){
+    background-color: rgb(241,250,254);
+}
+#fbltIn>div:nth-child(3){
+    background-color:rgb(253,247,232) ;
+}
+                /* PAY OFFERS */
+#payOffer{
+    width: 80%;
+    margin:30px auto
+}
+#poIn{
+    display: flex;
+    gap: 20px;
+}
+#poIn>div>img{
+    width: 100%;
+}
+                /* WELLNESS ESSENTIAL OF THE WEEKS */
+#wew{
+    width: 80%;
+    margin: 30px auto;
+}
+#wewIn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.weImg>div>img{
+    width:70px
+}
+.weImg{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    margin: auto;
+}
+.wewCol{
+    display: flex;
+    gap: 20px;
+}
+.wewCol>.weImg+div>b>span{
+    color: red;
+}
+
+                /* FEATURED BRAND */
+#fb{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+
+}
+#fbIn{
+    display: flex;
+    gap:20px;
+    text-align: center;
+    margin: 40px;
+}
+#fbIn>div>img{
+    width:100%
+}
+#fbBot>div>img{
+    width:100%
+}
+#fbBot{
+    display: flex;
+    gap:20px;
+}
+                /* DEAL OF THE DAYS */
+#dod{
+    width: 80% ;
+    margin: 80px auto;
+    
+}
+#dodMain{
+    display: flex;
+    gap:20px;
+    align-items: baseline;
+}
+.dodImg>img{
+    width: 100px;
+}
+.dodImg{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    margin: auto;
+}
+#dodIn>b>span{
+    color: red;
+}
+                /* IN THE SPOTLIGHT */
+#its{
+    width: 80% ;
+    margin: auto;
+    background-color: rgb(255,248,227) ;
+    padding: 20px;
+}
+#itsMain{
+    display: flex;
+    gap:20px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.itsImg>img{
+    width: 100px;
+}
+.itsImg{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    margin: auto;
+    background-color: white;
+}
+#itsIn>b>span{
+    color: red;
+}
+                        /* ITS BOT */
+#itsBot{
+    width: 80%;
+    margin: 50px auto;
+}               
+#Img{
+ 
+    display: flex;
+    gap:20px
+}
+#Img>div>img{
+    width: 100%;
+}
+                    /* Health Articles */
+#ha{
+    width:80%;
+    margin: 50px auto;
+    font-size: 20px;
+}
+#haIn{
+    display:flex ;
+    gap:20px;
+}
+#haIn>div{
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+}
+#haIn>div>img{
+    width: 100%;
+}
+                /* WCU */
+#wcu{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(242,242,242);
+    padding:20px
+
+}
+#wcuMain{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+}
+.wcuIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+                /*WOCS */
+#wocs{
+    width:80%;
+    margin:auto;
+}
+#wocsIn{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 70px;
+
+}
+.color{
+    background-color:rgb(242,255,248) ;
+    padding: 30px;
+    border:1px solid rgb(184, 255, 78);
+}
+            /*SHIL */
+#shil{
+    width: 80%;
+    background-color:rgb(215,250,248);
+    margin: auto;
+}
+#shil>img{
+    width: 100%;
+    margin: auto;
+}
+#shil>h2{
+    font-size: 60px;
+    position: absolute;
+    left: 40%;
+}
+#shil>b{
+   font-size: 35px; 
+   position: relative;
+   top: 280px;
+   left: 38%;
+}
+#slImg{
+    position: relative;
+    left:42%;
+    top:-80px;
+}
+#text{
+    width: 80%;
+    margin: auto;
+}
+#text>p{
+    margin-bottom: 40px;
+}
+#last{
+    font-size: 0.8rem;
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    background-color:rgb(238,244,255) ;
+}
+#top{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#bot{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+}
+#left{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 20px;
+    justify-content: flex-start;
+}
+#left>img{
+    width: 60%;
+}
